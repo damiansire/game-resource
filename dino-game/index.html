@@ -6,10 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="../shared/download-button/style.css" rel="stylesheet">
+    <link href="../shared/cards/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <style>
+        body {
+            margin: 0px;
+        }
+    </style>
 
+    <style>
+        div.card a.button.dark-single,
+        div.card a.button.white-single {
+            position: absolute;
+            right: 15px;
+        }
+
+        div.card div.card-title h2 {
+            padding: 13px;
+        }
+    </style>
+
+
+    <div class="cards">
+        <!-- Comun -->
+        <div class="card">
+            <div class="card__image-holder">
+                <img class="card__image" src="./assets/background.png" alt="wave" />
+            </div>
+            <div class="card-title">
+                <a href="./assets/background.png" class="button dark-single" download="dino-game-background.png">
+                    <div>
+                        <svg viewBox="0 0 24 24"></svg>
+                    </div>
+                </a>
+
+                <h2>
+                    Fondo del juego
+                </h2>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__image-holder">
+                <img class="card__image" src="./assets/cactus.png" alt="wave" />
+            </div>
+            <div class="card-title">
+                <a href="./assets/cactus.png" class="button dark-single" download="dino-game-cactus.png">
+                    <div>
+                        <svg viewBox="0 0 24 24"></svg>
+                    </div>
+                </a>
+                <h2>
+                    Captus
+                </h2>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__image-holder">
+                <img class="card__image" src="./assets/player.png" alt="wave" />
+            </div>
+            <div class="card-title">
+                <a href="./assets/player.png" class="button dark-single" download>
+                    <div>
+                        <svg viewBox="0 0 24 24"></svg>
+                    </div>
+                </a>
+                <h2>
+                    Dino Player
+                </h2>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../shared/download-button/scripts.js"></script>
 </body>
 
 </html>
